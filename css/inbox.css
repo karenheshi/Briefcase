@@ -1,0 +1,50 @@
+.inbox{
+  position: absolute;
+  z-index:10;
+  background: url(../public/img/inbox-bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 832px;
+  height: 658px;
+  left: 260px;
+  top: 30px;
+  margin-bottom: 100px;
+  padding:116px 125px 0;
+  box-sizing: border-box;
+}
+.inbox .sendemail{
+  width: 100%;
+}
+.inbox p {
+  display: flex;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.inbox p label {
+  font-size: 20px;
+  font-weight: 400;
+}
+.inbox p input{
+  height: 30px;
+}
+.inbox p textarea{
+  height: 165px;
+}
+.inbox button{
+  width: 110px;
+  height: 32px;
+  position: absolute;
+  opacity: 0;
+  right: 126px;
+  bottom: 60px;
+}
+.inbox .reset{
+  right: 244px;
+}
+.inbox .close{
+  display: block;
+  width:  25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

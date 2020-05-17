@@ -1,0 +1,87 @@
+.she{
+  position: absolute;
+  background: url(../public/img/she-bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 832px;
+  height: 658px;
+  left: 260px;
+  top: 30px;
+  margin-bottom: 100px;
+  z-index:9;
+  display: none;
+}
+.she .shi{
+  width: 813px;
+  height: 548px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 68px;
+  left: 10px;
+}
+.she ul{
+  display: flex;
+  flex-wrap: wrap;
+  height: 416px;
+}
+.she li {
+  padding: 0;
+  width: 33.33%;
+  height: 100%;
+  position: relative;
+}
+.she li img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.she span{
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  opacity: 0.5;
+  bottom: 6px;
+  cursor: pointer;
+}
+.she .toplay{
+  left: 106px;
+}
+.she .stoplay{
+  right: 53px;
+}
+.she ul .div{
+  position: absolute;
+  top: 47px ;
+  left: 7px;
+  width: 248px;
+  z-index: 10;
+  height: 330px;
+}
+.she video{
+  position: relative;
+  z-index: 0;
+}
+.she .sheimg{
+  top: 0 ;
+  left: 0;
+  width: 248px;
+  height: 330px;
+  display: none;
+}
+
+.she .div:hover .sheimg{
+  display: block;
+}
+.she .div:hover .sheimg{
+}
+.she .close{
+  display: block;
+  width:  25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

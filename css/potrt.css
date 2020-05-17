@@ -1,0 +1,58 @@
+.portf{
+  position: absolute;
+  background: url(../public/img/port-bg.jpg) no-repeat;
+  display: none;
+  background-size: 100% 100%;
+  width: 838px;
+  height: 657px;
+  left: 260px;
+  top: 30px;
+  margin-bottom: 100px;
+  z-index:10;
+  padding:230px 53px 0 24px;
+  box-sizing: border-box;
+}
+.portf .close{
+  display: block;
+  width:  25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.drag{
+  width: 90%;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+ul,li{
+  padding: 0;
+  margin: 0;
+}
+.portf .ul{
+  position: absolute;
+  top: 66px;
+  display: flex;
+  justify-content: space-between;
+  left: 9px;
+  width: 820px;
+  height: 556px;
+  overflow: auto;
+}
+.portf .ul>li{
+  width: 49.5%;
+}
+.portf li img{
+  width: 100%;
+}
+.portf .ul ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.portf .ul ul li{
+  width: 100%;
+}

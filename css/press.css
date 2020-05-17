@@ -1,0 +1,71 @@
+.press{
+  position: absolute;
+  background: url(../public/img/press-bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 832px;
+  height: 658px;
+  left: 260px;
+  top: 30px;
+  margin-bottom: 100px;
+  z-index:10;
+}
+.responsive-img {
+	width: 100%;
+	height: auto;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+}
+.modal-content {
+  margin: auto;
+  display: block;
+}
+.press .video {
+  width: 755px ;
+  height: 320px;
+  position: absolute;
+  /* overflow: auto; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  left: 40px;
+  top: 265px;
+}
+.press ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.press .video ul li {
+  padding: 0;
+  width: 33.3%;
+  list-style: none;
+}
+.press ul li img{
+  width: 100%;
+  height: 100%;
+}
+.press .close{
+  display: block;
+  width:  25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.press a{
+  position: absolute;
+  display: inline-block;
+  width: 308px;
+  height: 35px;
+  left: 293px;
+  top: 198px;
+}
