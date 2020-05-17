@@ -54,5 +54,6 @@ ul,li{
   flex-direction: column;
 }
 .portf .ul ul li{
+  margin-bottom: 4px;
   width: 100%;
 }
